@@ -65,6 +65,7 @@
     <Compile Include="Assets\PineconeGames\Scripts\CoreUnity\Patterns\SingletonMonoBehaviour.cs" />
     <Compile Include="Assets\PineconeGames\Scripts\CoreUnity\Serializers\Json\Newtonsoft\NewtonsoftSerializer.cs" />
     <Compile Include="Assets\PineconeGames\Scripts\CoreUnity\Serializers\Json\Newtonsoft\Resolvers\PrivateResolver.cs" />
+    <Compile Include="Assets\PineconeGames\Scripts\CoreUnity\Threads\ThreadManager.cs" />
     <Compile Include="Assets\PineconeGames\Scripts\CoreUnity\Zippers\SystemIOCompression\SystemIOCompressionZipper.cs" />
     <None Include="Assets\ExternalAssets\JsonDotNet\link.xml" />
     <Reference Include="UnityEngine">
@@ -250,11 +251,11 @@
     <Reference Include="UnityEditor">
       <HintPath>D:/Program Filex (x86)/Unity/Versions/2019.4.13f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="PineconeGames.Core">
-      <HintPath>D:/Git Projects/PineconeCore/UnityPineconeCore/Assets/PineconeGames/Plugins/PineconeGames.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>D:/Git Projects/PineconeCore/UnityPineconeCore/Assets/ExternalAssets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PineconeGames.Core">
+      <HintPath>D:/Git Projects/PineconeCore/UnityPineconeCore/Assets/PineconeGames/Plugins/PineconeGames.Core.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:/Program Filex (x86)/Unity/Versions/2019.4.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
